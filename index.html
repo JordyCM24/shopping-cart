@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="./css/dark.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: light)" href="./css/light.css">
+    <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+    <title>Tienda de figuritas</title>
+</head>
+<body>
+    <aside>
+        <dark-mode-toggle
+          id="dark-mode-toggle-1"
+          legend="Theme Switcher"
+          appearance="toggle" 
+          dark="Dark"
+          light="Light"
+          remember="Remember this"
+        ></dark-mode-toggle>
+    </aside>
+    <header>
+        <h1>Ejemplo de tienda de figuras Anime</h1>
+        <div class="container-icon">
+            <div class="container-cart-icon">
+                <svg class="icon-cart" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                </svg>
+                 <div class="count-product">
+                    <span id="contador-productos">0</span>
+                 </div> 
+            </div>
+            
+             <div class="container-cart-products hidden-cart">
+                <div class="row-product">
+                    <div class="cart-product">
+                        <div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto-carrito">Carrito vacio</p>
+                            <span class="precio-producto-carrito">$ 00</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                </div>
+               
+                <div class="cart-total">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$ 00</span>
+                </div>
+             </div>
+        </div>
+    </header>
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxMeRrLjILbjH-DhKrDFfWMAO8TgPztoPkxzXJa_CBCT3lOiYknFxB04P13-iLiMFOjqPTdL5dnwrwfoZ6OEIiuf2oeVY9PVm044xNCn9zJEgmC9Khqs2aeULuvtxT9EXLmA0CHPGswcszQTixSg0JXDOG8LmB6znFVmNeXuUScDJNF_IJPwxDpoI3ow/s800/mj2.jpg" alt="Asuka - Evangelion">
+            </figure>
+            <div class="info-product">
+                <h2>Asuka - Evangelion</h2>
+                <p class="price"> $80</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://http2.mlstatic.com/D_NQ_NP_994468-MLC49316300726_032022-O.webp" alt="Sakurajima Mai Bunny Girl">
+            </figure>
+            <div class="info-product">
+                <h2>Rem</h2>
+                <p class="price"> $75</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://m.media-amazon.com/images/I/41zx7-pEi3L._SL500_.jpg" alt="Evangelion">
+            </figure>
+            <div class="info-product">
+                <h2>Evangelion</h2>
+                <p class="price"> $90</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://www.global-freaks.com/108953-large_default/one-piece-yamato-pop-wa-maximum-megahouse.jpg" alt="Yamato">
+            </figure>
+            <div class="info-product">
+                <h2>Yamato - One Piece</h2>
+                <p class="price"> $85</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://4.bp.blogspot.com/-Up-PAGa-2jI/Vv2C6fcKYfI/AAAAAAABh9Y/eDrYi6gky2g0n1ppg8dKoOe2vmwTPJMGw/s1600/mj3.jpg" alt="Robin - One Piece">
+            </figure>
+            <div class="info-product">
+                <h2>Robin - One Piece</h2>
+                <p class="price"> $115</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://cdn.shopify.com/s/files/1/0635/6451/3535/products/ultra-tokyo-connection-pvc-scale-figures-rascal-does-not-dream-of-bunny-girl-senpai-mai-sakurajima-coreful-figure-newly-written-knit-dress-ver-17251388948524_2000x2000_28e6a149-068a-4.jpg?v=1660237269&width=533" alt="Sakurajima Mai Bunny Girl">
+            </figure>
+            <div class="info-product">
+                <h2>Mai - Bunny Girl</h2>
+                <p class="price"> $94</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+:root{
+    --background-color: #1d1d1d;
+}
+body{
+    color: aliceblue;
+}
+.cart-product{
+    color: #1d1d1d;
+}
+.cart-total{
+    color: #1d1d1d;
+}
+.cart-empty{
+    color: #1d1d1d;
+}
